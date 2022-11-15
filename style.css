@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Body */
+body {
+    /* background-color: #1F2833; */
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+/* Header */
+header {
+    text-align: center;
+    height: 200px;
+
+}
+
+.title {
+    font-size: 3em;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.text {
+    margin-top: 40px;
+}
+
+/* Main */
+
+main {
+    text-align: center;
+
+}
+
+#img {
+    width: 20px;
+    height: 20px;
+
+    margin-top: 2px;
+}
+
+#img:hover {
+    width: 25px;
+    height: 25px;
+}
+
+.btn {
+    /* flexbox */
+    display: inline-flex;
+    justify-content: center;
+    gap: 10px;
+
+    /* btn design */
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(211, 211, 211, 0.336);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    padding: 14px;
+    font-size: 20px;
+
+}
+
+.dark {
+
+    background: #000000;
+    color: #fff;
+
+}
+
+.dark .btn {
+
+    background: #000000;
+    color: #fff;
+    border-color: white;
+}
